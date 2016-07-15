@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/I:/androidstudy/PbSystem/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="background">#F0FFFF</color>
+    <color name="button">#82858b</color>
+    <color name="buttonbg">#C0C0C0</color>
+    <color name="color_black">#000000</color>
+    <color name="color_dark_grey">#808080</color>
+    <color name="color_green">#00FF00</color>
+    <color name="color_red">#FF0000</color>
+    <color name="color_white">#FFFFFF</color>
+    <color name="pressed">#F0FFF0</color>
+    <color name="selectedbg">#AFEEEE</color>
+    <!-- From: file:/I:/androidstudy/PbSystem/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="frame_height">0dp</dimen>
+    <!-- From: file:/I:/androidstudy/PbSystem/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">注销</string>
+    <string name="app_name">排班系统</string>
+    <string name="fri">周五</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint">已保存</string>
+    <string name="log_in">Log in</string>
+    <string name="mon">周一</string>
+    <string name="password">password</string>
+    <string name="password_error">Password cannot be empty</string>
+    <string name="save">保存</string>
+    <string name="sta">周六</string>
+    <string name="submit">提交</string>
+    <string name="sun">周日</string>
+    <string name="thu">周四</string>
+    <string name="title_activity_main">排班系统</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="tue">周二</string>
+    <string name="user_name">username</string>
+    <string name="username_error">Username cannot be empty</string>
+    <string name="wen">周三</string>
+    <!-- From: file:/I:/androidstudy/PbSystem/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="basicText">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">10dp</item>
+    </style>
+    <style name="courseTableText">
+        <item name="android:textColor">#4b3b85</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2dp</item>
+    </style>
+    <style name="custom_title" parent="android:Theme">
+        <item name="android:windowTitleSize">45dp</item>
+        <item name="android:windowTitleBackgroundStyle">@style/custom_title_background</item>
+    </style>
+    <style name="custom_title_background">
+        <item name="android:background">#2c78d7</item>
+    </style>
+    <style name="errorReportItemText">
+        <item name="android:textColor">#b8a5a5</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+    <style name="statusListItemText">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+    </style>
+</resources>
