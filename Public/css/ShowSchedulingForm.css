@@ -1,0 +1,16 @@
+body {
+    font-family: "Microsoft YaHei";
+}
+#SchedulingForm {
+	margin-left: 2%;
+	margin-top: 10px;
+}
+
+#ShowScheduling {
+	width: 240px;
+	margin: 10px 0px 10px 360px;
+	text-align:center;
+}
+
+ul { list-style-type: none;}
+

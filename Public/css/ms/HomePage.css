@@ -1,0 +1,10 @@
+body {
+    font-family: "Microsoft YaHei";
+}
+#system_p {
+	font-size: 60px;
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	margin-top: 0;
+}

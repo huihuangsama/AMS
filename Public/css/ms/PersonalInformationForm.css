@@ -1,0 +1,89 @@
+body {
+    font-family: "Microsoft YaHei";
+}
+#PersonalInformationForm {
+	width: 34%;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.optional {
+	color: red;
+}
+
+#err {
+	color: red;
+}
+
+#err0 {
+	color: red;
+	margin-top: 10px;
+}
+
+#assure {
+	width: 40%;
+	margin: auto;
+	padding-top: 5em;
+	font-size: 20px;
+
+}
+
+#ass {
+	font-weight: bold;
+	width: 200px;
+	text-align: right;
+	float: left;
+}
+
+#confirm {
+	width: 20%;
+	margin: auto;
+	margin-top: 20px;
+	margin-left: 210px;	
+}
+
+#asspassword {
+	margin-left: 10px;
+	border-radius: 4px;
+}
+
+#savepersonalinfo {
+	width:25%;
+	margin-left: 110px;
+}
+
+.panel-body {
+	background-color: #FBFBFB;
+}
+
+.save {
+	padding: 10px;
+	padding-bottom: 5px;
+}
+
+#male {
+	margin-right: 10px;
+}
+
+#female {
+	margin: 0 10px 0 20px;
+}
+
+td {
+	padding: 10px;
+	padding-right: 0px;
+	width: 300px;
+}
+
+.input-group {
+	margin-left: 10px;
+}
+
+th {
+	width: 100px;
+	text-align: right;
+}
+
+select {
+	width: 60px;
+}

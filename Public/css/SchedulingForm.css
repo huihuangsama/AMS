@@ -1,0 +1,21 @@
+body {
+    font-family: "Microsoft YaHei";
+}
+
+#SchedulingForm {
+	margin-left: 2%;
+	margin-top: 10px;
+}
+
+#saveScheduling {
+	width: 240px;
+	margin: 10px 0px 10px 360px;
+	text-align:center;
+}
+
+ul { list-style-type: none;}
+li { display: inline-span;}
+input.labelauty + label { font: 12px "Microsoft Yahei";}
+
+
+

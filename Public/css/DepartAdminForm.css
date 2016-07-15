@@ -1,0 +1,22 @@
+#DepartTable {
+	margin-left: 2%;
+	margin-top: 10px;
+}
+
+#AdminTable {
+	margin-left: 2%;
+	margin-top: 10px;
+}
+
+#Adddepart {
+	margin-left: 2%;
+	margin-top: 10px;
+}
+
+#AddAdministrator {
+	margin-left: 2%;
+	margin-top: 10px;
+}
+
+ul { list-style-type: none;}
+li { display: inline-span; float:left;}
