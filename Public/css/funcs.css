@@ -1,0 +1,16 @@
+.banner {
+	font-weight: bold;
+	font-size: 50px;
+	text-align: center;
+	//margin-top: 10px;
+	margin-bottom: -10px;
+	background-color: #FDFBF7;
+}
+
+.navigationbar {
+	background-color: #FDFBF7;
+}
+
+body {
+	background-color: #FDFBF7;
+}

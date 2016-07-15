@@ -1,0 +1,16 @@
+body {
+    font-family: "Microsoft YaHei";
+}
+#ManageTable {
+	margin-left: 2%;
+	margin-top: 2em;
+}
+
+#AddManage {
+	margin-left: 2%;
+	margin-top: 2em;
+}
+
+#addbutton {
+    width: 100%;
+}

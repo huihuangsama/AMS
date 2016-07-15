@@ -1,0 +1,36 @@
+body {
+    font-family: "Microsoft YaHei";
+}
+#FreeTimeForm {
+	margin: auto;
+	margin-top: 10px;
+	width: 960px;
+}
+
+th,td {
+	width: 120px;
+	border-style: ridge;
+}
+
+thead th {
+	padding: 10px;
+	text-align: center;
+	background-color: #F0FEFF;
+}
+
+tbody th {
+	padding: 10px;
+	text-align: center;
+	background-color: #F0FEFF;
+}
+
+tbody td {
+	padding: 10px;
+	text-align: center;
+}
+
+#savefreetime {
+	width: 240px;
+	margin: 10px 0px 10px 360px;
+}
+

@@ -1,0 +1,67 @@
+body {
+	background-color: #EAEAEA;
+	font-size: 18px;
+    font-family: "Microsoft YaHei";
+}
+
+#LoginIn {
+/*	border-style: groove;*/
+	border-radius: 15px;
+	width: 35%;
+	margin: auto;
+	margin-top: 10%;
+	/*background-color: #BDC3C3;*/
+	background-color: #FDFCFC;
+}
+
+#LoginInForm {
+	width: 80%;
+	padding: 15px 10px 15px 10px;
+	margin: auto;
+}
+/*#LoginIn {
+	border-style: groove;
+}
+
+#LoginInForm {
+	width: 20%;
+	margin: auto;
+	margin-top: 15%;
+	padding: 10px;
+}*/
+
+#choose_iden {
+	margin-left: 55px;
+}
+
+#assistant {
+	margin: 0 5px 0 10px;
+}
+
+#manager {
+	margin: 0 5px 0 20px;
+}
+
+#signinbutton {
+	margin: 10px;
+	margin-top: 5px;
+}
+
+.input-group {
+	margin: 10px;
+}
+
+#system_p {
+	text-align: right;
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+.alert {
+	margin-top: 1em;
+	width: 50%;
+	float: right;
+	text-align: center;
+}

@@ -1,0 +1,27 @@
+body {
+    font-family: "Microsoft YaHei";
+}
+#WorkRegisterTable {
+	width: 50%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+th,td {
+	width: 120px;
+	text-align: center;
+}
+
+.panel-body {
+	background-color: #FBFBFB;
+}
+
+#register_button {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+a:link {
+	text-decoration: none;
+}
+
