@@ -1,0 +1,495 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>助理排班</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/funcs.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/SchedulingForm.css">
+		<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+		<link rel="stylesheet" href="__PUBLIC__/css/jquery-labelauty.css">
+		<script src="__PUBLIC__/js/jquery-labelauty.js"></script>
+
+
+		<script type="text/javascript" src="__PUBLIC__/js/funcs.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/js/SchedulingForm.js"></script>	
+	</head>
+	<body>
+		<div class="container-fluid">
+					<div class="navigationbar">
+					    <ul class="nav nav-tabs">
+					    <li role="presentation" id="sy"><a href="javascript:void(0)">首页</a></li>
+					    <li role="presentation" id="gr"><a href="javascript:void(0)">个人信息管理</a></li>
+					    <if condition="I('cookie.type') eq 1">
+					        <li role="presentation" id="dj"><a href="javascript:void(0)">登记空闲时间</a></li>
+					        <li role="presentation" id="sx"><a href="javascript:void(0)">上下班登记</a></li>
+					    <else />
+					        <li role="presentation" id="gl"><a href="javascript:void(0)">管理助理</a></li>
+					        <li role="presentation" id="js"><a href="javascript:void(0)">结算工时</a></li>
+					        <li role="presentation" class="active" id="zl"><a href="javascript:void(0)">助理排班</a></li>
+					        <li role="presentation"><a href="javascript:void(0)">查看排班表</a></li>
+					    </if>
+					    <li role="presentation"><a href="javascript:void(0)">退出</a></li>
+					    </ul>
+					</div>
+					<div id="SchedulingForm">
+			<form>
+				<table class="table table-bordered" style="width:90%">
+					<thead>
+						<tr>
+							<th></th>
+							<th style="text-align:center">星期一</th>
+							<th style="text-align:center">星期二</th>
+							<th style="text-align:center">星期三</th>
+							<th style="text-align:center">星期四</th>
+							<th style="text-align:center">星期五</th>
+							<th style="text-align:center">星期六</th>
+							<th style="text-align:center">星期日</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th>8:00 ~ 9:00</th>
+							<td>
+								<ul id = "108000900" class="dowebok" display="span">
+								</ul>
+							</td>
+							<td>
+								<ul id = "208000900" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "308000900" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "408000900" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "508000900" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "608000900" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "708000900" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+						</tr>
+						<tr>
+							<th>9:00 ~ 10:00</th>
+							<td>
+								<ul id = "109001000" class="dowebok" display="span">
+								</ul>
+							</td>
+							<td>
+								<ul id = "209001000" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "309001000" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "409001000" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "509001000" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "609001000" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "709001000" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+						</tr>
+						<tr>
+							<th>10:00 ~ 11:00</th>
+							<td>
+								<ul id = "110001100" class="dowebok" display="span">
+								</ul>
+							</td>
+							<td>
+								<ul id = "210001100" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "310001100" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "410001100" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "510001100" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "610001100" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "710001100" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+						</tr>
+						<tr>
+							<th>11:00 ~ 12:00</th>
+							<td>
+								<ul id = "111001200" class="dowebok" display="span">
+								</ul>
+							</td>
+							<td>
+								<ul id = "211001200" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "311001200" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "411001200" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "511001200" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "611001200" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "711001200" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+						</tr>
+						<tr>
+							<th>12:00 ~ 13:00</th>
+							<td>
+								<ul id = "112001300" class="dowebok" display="span">
+								</ul>
+							</td>
+							<td>
+								<ul id = "212001300" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "312001300" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "412001300" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "512001300" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "612001300" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "712001300" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+						</tr>
+						<tr>
+							<th>13:00 ~ 14:00</th>
+							<td>
+								<ul id = "113001400" class="dowebok" display="span">
+								</ul>
+							</td>
+							<td>
+								<ul id = "213001400" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "313001400" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "413001400" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "513001400" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "613001400" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "713001400" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+						</tr>
+						<tr>
+							<th>14:00 ~ 15:00</th>
+							<td>
+								<ul id = "114001500" class="dowebok" display="span">
+								</ul>
+							</td>
+							<td>
+								<ul id = "214001500" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "314001500" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "414001500" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "514001500" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "614001500" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "714001500" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+						</tr>
+						<tr>
+							<th>15:00 ~ 16:00</th>
+							<td>
+								<ul id = "115001600" class="dowebok" display="span">
+								</ul>
+							</td>
+							<td>
+								<ul id = "215001600" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "315001600" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "415001600" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "515001600" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "615001600" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "715001600" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+						</tr>
+						<tr>
+							<th>16:00 ~ 17:00</th>
+							<td>
+								<ul id = "116001700" class="dowebok" display="span">
+								</ul>
+							</td>
+							<td>
+								<ul id = "216001700" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "316001700" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "416001700" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "516001700" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "616001700" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "716001700" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+						</tr>
+						<tr>
+							<th>17:00 ~ 18:00</th>
+							<td>
+								<ul id = "117001800" class="dowebok" display="span">
+								</ul>
+							</td>
+							<td>
+								<ul id = "217001800" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "317001800" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "417001800" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "517001800" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "617001800" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "717001800" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+						</tr>
+						<tr>
+							<th>18:00 ~ 19:00</th>
+							<td>
+								<ul id = "118001900" class="dowebok" display="span">
+								</ul>
+							</td>
+							<td>
+								<ul id = "218001900" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "318001900" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "418001900" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "518001900" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "618001900" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "718001900" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+						</tr>
+						<tr>
+							<th>19:00 ~ 20:00</th>
+							<td>
+								<ul id = "119002000" class="dowebok" display="span">
+								</ul>
+							</td>
+							<td>
+								<ul id = "219002000" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "319002000" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "419002000" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "519002000" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "619002000" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "719002000" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+						</tr>
+						<tr>
+							<th>20:00 ~ 21:00</th>
+							<td>
+								<ul id = "120002100" class="dowebok" display="span">
+								</ul>
+							</td>
+							<td>
+								<ul id = "220002100" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "320002100" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "420002100" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "520002100" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "620002100" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "720002100" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+						</tr>
+						<tr>
+							<th>21:00 ~ 22:00</th>
+							<td>
+								<ul id = "121002200" class="dowebok" display="span">
+								</ul>
+							</td>
+							<td>
+								<ul id = "221002200" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "321002200" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "421002200" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "521002200" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "621002200" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+							<td>
+								<ul id = "721002200" class="dowebok" display="span">
+								</ul>
+                                                        </td>
+						</tr>
+					</tbody>
+				</table>
+				<div>
+		  			<button class="btn btn-lg btn-primary btn-block" id="saveScheduling" style="margin:auto" type="button">保存</button>
+				</div>
+			</form>
+		</div>
+		</div>
+		
+	</body>
+</html>

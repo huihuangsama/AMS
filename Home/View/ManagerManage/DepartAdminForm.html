@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="UTF-8">
+		<title>部门与管理员</title>
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/funcs.css">
+		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/DepartAdminForm.css">
+		<link rel="stylesheet" href="__PUBLIC__/css/jquery-labelauty.css">
+		<script type="text/javascript" src="__PUBLIC__/js/jquery.min.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/js/funcs.js"></script>
+		<script type="text/javascript" src="__PUBLIC__/js/DepartAdminForm.js"></script>	
+	</head>
+	<body>
+
+		<div class="container_fuild">
+			<div class="navigationbar">
+				</ul>
+			</div>
+		
+
+
+			<table id="DepartTable" class="table table-hover" style="width:90%">
+				<thead>
+					<tr>
+						<th>
+							注销部门
+						</th>
+						<th>
+							部门号
+						</th>
+						<th>
+							部门名称
+						</th>
+					</tr>
+				</thead>
+				<tbody id="DTBody">
+					
+				</tbody>
+			</table>
+
+			<div id="Adddepart" class="form-horizontal">
+				<div class="row">
+
+					<div class="form-group col-md-offset-1 col-sm-5">
+						<label for="dname" class="col-sm-4 control-label">部门名称</label>
+						<div class="col-sm-8">
+							<input type="name" class="form-control" id="dname" placeholder="输入新部门名称">
+						</div>
+					</div>
+					<div class="form-group col-md-offset-1 col-sm-5">
+						<label for="password1" class="col-sm-4 control-label">超级密码</label>
+						<div class="col-sm-8">
+							<input type="password" class="form-control" id="password1" placeholder="输入超级密码">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group">
+						<div class="col-sm-offset-1 col-sm-9">
+							<button id="adddepartbutton" class="btn btn-primary" style="width:100%">添加部门</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<table id="AdminTable" class="table table-hover" style="width:90%">
+				<thead>
+					<tr>
+						<th>
+							注销管理员
+						</th>
+						<th>
+							工号
+						</th>
+						<th>
+							姓名
+						</th>
+					</tr>
+				</thead>
+				<tbody id="ATBody">
+					
+				</tbody>
+			</table>
+
+			<div id="AddAdministrator" class="form-horizontal">
+				<div class="row">
+
+					<div class="form-group col-md-offset-1 col-sm-5">
+						<label for="addid" class="col-sm-4 control-label">工号</label>
+						<div class="col-sm-8">
+							<input type="id" class="form-control" id="addid" placeholder="输入新管理员工号">
+						</div>
+					</div>
+					<div class="form-group col-md-offset-1 col-sm-5">
+						<label for="password2" class="col-sm-4 control-label">超级密码</label>
+						<div class="col-sm-8">
+							<input type="password" class="form-control" id="password2" placeholder="输入超级密码">
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group col-md-offset-1">
+						<label for="did" class="col-sm-2 control-label">部门</label>
+						<div class="col-sm-10">
+							<ul id = "did" class="dowebok" display="span">
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group">
+						<div class="col-sm-offset-1 col-sm-9">
+							<button id="addadmbutton" class="btn btn-primary" style="width:100%">添加管理员</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+</body>
+</html>
